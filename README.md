@@ -11,3 +11,4 @@ Neste projeto pude implementar um desafio que me foi passado pelo chatGPT, de pr
 # como utilizar
 
 1 - clone para o projeto: https://github.com/AlbertoMavungo/previsao-do-tempo.git
+2 - hospedagem: https://previsao-do-tempo-rb58.vercel.app/
