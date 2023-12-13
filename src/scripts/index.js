@@ -6,6 +6,16 @@ botao.addEventListener('click', async () => {
     getLocation()
 })
 
+document.getElementById('campo-de-pesquisa').addEventListener('keyup', (e)=>{
+    const city = e.target.value
+    const key = e.which || e.keyCode
+    const isEnterKeyPressed = key === 13
+
+    if(isEnterKeyPressed){
+        getLocation(city)
+    }
+})
+
 export const exibirNaTela = async (data) => {
 
     const { temp_max, temp_min } = data.list[0].main
